@@ -177,7 +177,7 @@ client.on("message", async msg => {
   if (msg.content.startsWith(config.prefix + "setownerID")) {
     if (msg.channel.type == "dm")
       
-      return msg.reply("** لا تستيطع استخدام الامر علي الخاص .. **");
+      return msg.reply("762678306670772264");
     if (!dinfo.owner.includes(msg.author.id)) return;
     let args = msg.content
       .split(" ")
